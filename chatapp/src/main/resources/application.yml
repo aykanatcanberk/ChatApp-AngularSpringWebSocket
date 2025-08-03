@@ -25,4 +25,4 @@ application:
       media-output.path: ./uploads
 
 server:
-  port: 8081
+  port: 8080

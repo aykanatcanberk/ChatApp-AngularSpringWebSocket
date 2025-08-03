@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ChatApp-AngularSpringWebSocket.iml" filepath="$PROJECT_DIR$/.idea/ChatApp-AngularSpringWebSocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chatapp/chatapp.iml" filepath="$PROJECT_DIR$/chatapp/chatapp.iml" />
     </modules>
   </component>
 </project>
