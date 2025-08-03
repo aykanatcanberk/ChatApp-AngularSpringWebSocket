@@ -1,4 +1,4 @@
-package com.canbe.chatapp.dto;
+package com.canbe.chatapp.CommunUtils;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

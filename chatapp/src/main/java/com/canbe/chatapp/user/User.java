@@ -1,7 +1,7 @@
 package com.canbe.chatapp.user;
 
 import com.canbe.chatapp.chat.Chat;
-import com.canbe.chatapp.dto.BaseAuditingEntity;
+import com.canbe.chatapp.CommunUtils.BaseAuditingEntity;
 import jakarta.persistence.*;
 import lombok.*;
 

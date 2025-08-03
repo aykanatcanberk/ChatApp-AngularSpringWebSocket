@@ -1,6 +1,6 @@
 package com.canbe.chatapp.chat;
 
-import com.canbe.chatapp.dto.BaseAuditingEntity;
+import com.canbe.chatapp.CommunUtils.BaseAuditingEntity;
 import com.canbe.chatapp.message.Message;
 import com.canbe.chatapp.message.MessageState;
 import com.canbe.chatapp.message.MessageType;

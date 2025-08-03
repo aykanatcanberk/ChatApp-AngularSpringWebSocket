@@ -1,4 +1,4 @@
-package com.canbe.chatapp.dto;
+package com.canbe.chatapp.CommunUtils;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;

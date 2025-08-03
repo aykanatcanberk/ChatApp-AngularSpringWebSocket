@@ -2,7 +2,7 @@ package com.canbe.chatapp.message;
 
 
 import com.canbe.chatapp.chat.Chat;
-import com.canbe.chatapp.dto.BaseAuditingEntity;
+import com.canbe.chatapp.CommunUtils.BaseAuditingEntity;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
