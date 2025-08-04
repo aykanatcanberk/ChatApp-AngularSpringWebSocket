@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
-@AllArgsConstructor
 public class MessageConstants {
 
     public static final String FIND_MESSAGES_BY_CHAT_ID = "Message.findMessagesByChatId";

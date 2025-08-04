@@ -1,5 +1,6 @@
 package com.canbe.chatapp.file;
 
+import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 
@@ -9,9 +10,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 @Slf4j
+@NoArgsConstructor
 public class FileUtils {
-
-    private FileUtils() {}
 
     public static byte[] readFileFromLocation(String fileUrl) {
         if (StringUtils.isBlank(fileUrl)) {

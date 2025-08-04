@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
-@AllArgsConstructor
 public class ChatConstants {
 
     public static final String FIND_CHAT_BY_SENDER_ID = "Chat.findChatsByReceiverId";
