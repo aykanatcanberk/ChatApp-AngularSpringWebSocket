@@ -1,0 +1,63 @@
+.chat-list > div {
+  cursor: pointer;
+  padding: 12px;
+  transition: background 0.2s ease;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.chat-list > div:hover {
+  background-color: #f9f9f9;
+}
+
+.badge.rounded-pill.text-bg-light {
+  font-weight: 500;
+  padding: 6px 12px;
+  background-color: #f1f1f1;
+  color: #333;
+  font-size: 0.75rem;
+  transition: background 0.2s;
+}
+
+.badge.rounded-pill.text-bg-light:hover {
+  background-color: #ddd;
+}
+
+.msg-date {
+  font-size: 0.75rem;
+  color: #999;
+}
+
+.msg-date.unread {
+  color: #1fa855;
+  font-weight: 600;
+}
+
+.unread-msg-badge {
+  background: #1fa855;
+  color: #fff;
+  min-width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.user-img img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.border-bottom-gray {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.sticky-top.bg-white {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  z-index: 10;
+}
